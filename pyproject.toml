@@ -1,0 +1,10 @@
+[project]
+name = "roe-shapley"
+version = "1.0.0"
+description = "Shapley decomposition of ROE drivers across Armenian banks, 2022-2025"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

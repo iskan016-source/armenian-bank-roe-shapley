@@ -1,0 +1,16 @@
+# Raw OctoBI platform export: not redistributed (see data/README.md)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.claude/
